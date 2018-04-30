@@ -1,0 +1,24 @@
+.about {
+  top: 25%;
+  position: absolute;
+  display: block;
+  text-align: justify;
+  margin-left: 50px;
+}
+
+.title {
+  font-family: 'Cinzel', serif;
+  font-size: 32px;
+  color: #12B262;
+  font-weight: bolder;
+  line-height: 2rem;
+}
+
+.text {
+  font-family: 'Mate', serif;
+  line-height: 2rem;
+  font-size: 14px;
+  color: #333;
+  margin-top: 15px;
+  margin-left: 10px;
+}
