@@ -12,7 +12,7 @@ h1{
   font-weight: lighter;
   font-size: 13px;
 }
-h1,.loading > div{
+h1.load,.loading > div{
   top: 50%;
   left: 50%;
   display: block;
@@ -166,4 +166,26 @@ $shadows-big: multiple-box-shadow(100);
       transform: translateY(0px);
     }
   }
+}
+
+.main-pres {
+  top: 40%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  font-family: 'Mate', serif;
+  text-align: center;
+  color: #12B262;
+}
+
+.main-pres h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+.main-pres h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2rem;
 }
