@@ -1,0 +1,62 @@
+@charset "utf8";
+*,*:after,*:before,html{
+  box-sizing:border-box
+}
+body{
+  margin:0;
+  padding:0;
+}
+h1{
+  font-family: 'Cinzel', serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 13px;
+}
+h1,.loading > div{
+  top: 50%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  transform: translate(-50%,-50%);
+}
+.loading{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  z-index: 999;
+}
+.loading > div{
+  width: 200px;
+  height: 200px;
+}
+.loading > div:before,
+.loading > div:after{
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  border:4px solid #333;
+  border-top-color: springgreen;
+}
+
+.loading > div:before{
+  width: 100%;
+  height: 100%;
+  animation: loading 5s linear infinite;
+}
+.loading > div:after{
+  width: 150px;
+  height: 150px;
+  top: 25px;
+  left: 25px;
+  animation: loading 5s linear infinite reverse;
+}
+@keyframes loading{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
