@@ -4,3 +4,22 @@ body {
   background-color: rgb(250, 250, 250);
   color: #333;
 }
+
+a.previous {
+  bottom: 2%;
+  left: 2%;
+  position: absolute;
+  display: block;
+  font-size: 35px;
+  color: #12B262;
+}
+
+
+a.next {
+  bottom: 2%;
+  right: 2%;
+  position: absolute;
+  display: block;
+  font-size: 35px;
+  color: #12B262;
+}
