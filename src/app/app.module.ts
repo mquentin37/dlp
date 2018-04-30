@@ -9,6 +9,7 @@ import {HomeComponent} from './components/home/home.component';
 import {appModuleRouter} from './app.routes';
 import {AboutComponent} from './components/about/about.component';
 import {PortfolioComponent} from './components/portfolio/portfolio.component';
+import { LoadingComponent } from './components/loading/loading.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import {PortfolioComponent} from './components/portfolio/portfolio.component';
     NavbarComponent,
     HomeComponent,
     AboutComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,
