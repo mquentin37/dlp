@@ -1,0 +1,29 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Cinzel', serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav div a {
+  float: left;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav div a:hover {
+  color: springgreen;
+  cursor: pointer;
+}
+
+/* Add a color to the active/current link */
+.topnav div a.active {
+  color: springgreen;
+}

@@ -1,16 +1,9 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit{
-  loading = true;
-
-  ngOnInit(): void {
-     setTimeout(() => {
-      this.loading = false;
-     },4000);
-  }
+export class AppComponent{
 }
