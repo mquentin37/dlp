@@ -1,0 +1,39 @@
+.row {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.row:first-child {
+  margin-top: 6%;
+}
+
+.cell {
+  width: 25%;
+  text-align: center;
+}
+
+.cell div.post {
+  background-color: #12B262;
+  margin: 25px;
+  height: 150px;
+  border-top-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.cell div.post div.header {
+  line-height: 2rem;
+  border-bottom: 1px solid #fafafa;
+  color: #fafafa;
+  font-family: 'Cinzel', serif;
+}
+
+.cell div.post div.body {
+  line-height: 2rem;
+  color: #fafafa;
+  font-family: 'Mate', serif;
+  font-size: 12px;
+  height: 120px;
+}
+
