@@ -3,7 +3,7 @@ import {Component, OnInit} from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit{
   loading = true;
@@ -11,6 +11,6 @@ export class AppComponent implements OnInit{
   ngOnInit(): void {
      setTimeout(() => {
       this.loading = false;
-     },2000);
+     },4000);
   }
 }
