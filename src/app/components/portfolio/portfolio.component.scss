@@ -42,7 +42,7 @@
   line-height: 2rem;
   color: #fafafa;
   font-family: 'Mate', serif;
-  font-size: 12px;
+  font-size: 13px;
   padding: 5px;
 }
 
@@ -57,4 +57,12 @@
 .nodejs {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+}
+
+.soon {
+  text-align: center;
+  overflow: hidden;
+  font-size: 150px;
+  font-family: 'Cinzel', serif;
+  color: lightgray;
 }
