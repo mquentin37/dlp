@@ -1,11 +1,11 @@
 .main-pres {
-  top: 40%;
+  top: 30%;
   width: 99%;
   display: block;
   position: absolute;
   font-family: 'Mate', serif;
   text-align: center;
-  color: #12B262;
+  color: #337F59;
 }
 
 .main-pres h1 {
@@ -17,7 +17,19 @@
 .main-pres h2 {
   font-size: 2rem;
   font-weight: 700;
-  line-height: 2rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.main-pres div.desc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-pres div.links {
+  margin-top: 20px;
 }
 
 .main-pres a {
@@ -26,7 +38,7 @@
 }
 
 fa {
-  color: #12B262;
+  color: #337F59;
   font-size: 3rem;
   font-weight: 700;
   line-height: 3rem;
