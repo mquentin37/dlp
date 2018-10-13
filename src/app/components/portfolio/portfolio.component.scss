@@ -55,6 +55,7 @@
   font-family: 'Mate', serif;
   font-size: 13px;
   padding: 5px;
+  background-color: #15CC70;
 }
 
 .cell div.post div.body p {
@@ -73,12 +74,13 @@
 .soon {
   text-align: center;
   overflow: hidden;
-  font-size: 5em;
+  font-size: 4em;
   font-family: 'Cinzel', serif;
   color: lightgray;
   position: absolute;
   top: 40%;
   z-index: -999;
+  width: 100%;
   @media (max-width : 500px) {
     top: 10%
   }
