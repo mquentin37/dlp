@@ -1,3 +1,5 @@
+@import "../../../variables";
+
 .main-pres {
   top: 20%;
   width: 99%;
@@ -5,7 +7,7 @@
   position: absolute;
   font-family: 'Mate', serif;
   text-align: center;
-  color: #337F59;
+  color: $main-font-color;
 }
 
 .main-pres h1 {
@@ -38,7 +40,7 @@
 }
 
 fa {
-  color: #337F59;
+  color: $main-font-color;
   font-size: 3rem;
   font-weight: 700;
   line-height: 3rem;

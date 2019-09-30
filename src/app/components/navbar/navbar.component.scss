@@ -1,3 +1,5 @@
+@import "../../../variables";
+
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
@@ -10,7 +12,7 @@
 /* Style the links inside the navigation bar */
 .topnav div a {
   float: left;
-  color: #333;
+  color: $black-font-color;
   text-align: center;
   padding: 5px;
   text-decoration: none;
@@ -19,11 +21,11 @@
 
 /* Change the color of links on hover */
 .topnav div a:hover {
-  color: springgreen;
+  color: $main-color-shade;
   cursor: pointer;
 }
 
 /* Add a color to the active/current link */
 .topnav div a.active {
-  color: #337F59;
+  color: $main-font-color;
 }

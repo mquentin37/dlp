@@ -1,3 +1,5 @@
+@import "../../../variables";
+
 .row {
   margin-top: 1%;
   display: flex;
@@ -26,7 +28,7 @@
 }
 
 .cell div.post {
-  background-color: #337F59;
+  background-color: $main-font-color;
   margin: 25px;
   height: 185px;
   border-top-left-radius: 6px;
@@ -35,14 +37,14 @@
 
 .cell div.post div.header {
   line-height: 2rem;
-  border-bottom: 1px solid #fafafa;
-  color: #fafafa;
+  border-bottom: 1px solid $alternative-font-color;
+  color: $alternative-font-color;
   font-family: 'Cinzel', serif;
 }
 
 .cell div.post div.footer {
-  border-top: 1px solid #fafafa;
-  color: #fafafa;
+  border-top: 1px solid $alternative-font-color;
+  color: $alternative-font-color;
   font-family: 'Cinzel', serif;
   display: flex;
   flex-direction: row;
@@ -51,11 +53,11 @@
 
 .cell div.post div.body {
   line-height: 2rem;
-  color: #fafafa;
+  color: $alternative-font-color;
   font-family: 'Mate', serif;
   font-size: 13px;
   padding: 5px;
-  background-color: #15CC70;
+  background-color: $main-color-shade;
 }
 
 .cell div.post div.body p {
@@ -76,7 +78,7 @@
   overflow: hidden;
   font-size: 4em;
   font-family: 'Cinzel', serif;
-  color: lightgray;
+  color: $black-font-color;
   position: absolute;
   top: 40%;
   z-index: -999;

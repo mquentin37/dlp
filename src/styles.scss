@@ -1,8 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import "variables";
 
 body {
-  background-color: rgb(250, 250, 250);
-  color: #333;
+  background-color: $background;
+  color: $black-font-color;
 }
 
 a.previous {
@@ -11,7 +11,7 @@ a.previous {
   position: absolute;
   display: block;
   font-size: 35px;
-  color: #337F59;
+  color: $main-font-color;
 }
 
 
@@ -21,5 +21,5 @@ a.next {
   position: absolute;
   display: block;
   font-size: 35px;
-  color: #337F59;
+  color: $main-font-color;
 }
