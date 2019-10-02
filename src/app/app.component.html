@@ -1,1 +1,13 @@
-<router-outlet></router-outlet>
+<div class="app-main">
+  <router-outlet></router-outlet>
+</div>
+<a class="previous" [routerLink]="[getPrevious()]">
+  <fa name="arrow-circle-left"></fa>
+</a>
+
+<a class="next" [routerLink]="[getNext()]">
+  <fa name="arrow-circle-right"></fa>
+</a>
+
+
+
