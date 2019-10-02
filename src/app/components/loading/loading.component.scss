@@ -1,5 +1,5 @@
-@import "../../../variables";
 @charset "utf8";
+@import "../../../variables";
 
 
 *,*:after,*:before,html{
@@ -10,7 +10,7 @@ body{
   padding:0;
 }
 h1{
-  font-family: 'Cinzel', serif;
+  font-family: $title-font;
   font-style: normal;
   font-weight: lighter;
   font-size: 13px;

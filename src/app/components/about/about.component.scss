@@ -1,15 +1,14 @@
 @import "../../../variables";
 
 .about {
-  top: 20%;
-  position: absolute;
+  margin-top: 100px;
   display: block;
   text-align: justify;
   margin-left: 50px;
 }
 
 .title {
-  font-family: 'Cinzel', serif;
+  font-family: $title-font;
   font-size: 32px;
   color: $main-font-color;
   font-weight: bolder;
@@ -17,7 +16,7 @@
 }
 
 .text {
-  font-family: 'Mate', serif;
+  font-family: $text-font;
   line-height: 2rem;
   font-size: 14px;
   color: $black-font-color;

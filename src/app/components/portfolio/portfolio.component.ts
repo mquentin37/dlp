@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {RouteEnum, RoutingService} from '../../service/routing.service';
 
 @Component({
   selector: 'app-portfolio',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
 
-  constructor() { }
+  constructor(private routingService: RoutingService) { }
 
   ngOnInit() {
+    this.routingService.route = RouteEnum.PORTFOLIO;
   }
 
 }

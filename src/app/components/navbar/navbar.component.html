@@ -1,9 +1,10 @@
 <div class="topnav">
   <div>
-    <a [routerLink]="['/home']" [routerLinkActive]="['active']"><fa name="home"></fa>Home Page</a>
+    <a [routerLink]="['/home']" [routerLinkActive]="['active']"><fa name="home"></fa><ng-container *ngIf="!mobile">Home Page</ng-container></a>
   </div>
   <div>
-    <a [routerLink]="['/about']" [routerLinkActive]="['active']"><fa name="question"></fa>About</a>
-    <a [routerLink]="['/portfolio']" [routerLinkActive]="['active']"><fa name="suitcase"></fa>Portfolio</a>
+    <a [routerLink]="['/about']" [routerLinkActive]="['active']"><fa name="question"></fa><ng-container *ngIf="!mobile">About</ng-container></a>
+    <a [routerLink]="['/experience']" [routerLinkActive]="['active']"><fa name="building"></fa><ng-container *ngIf="!mobile">Professional Experience</ng-container></a>
+    <a [routerLink]="['/portfolio']" [routerLinkActive]="['active']"><fa name="suitcase"></fa><ng-container *ngIf="!mobile">Portfolio</ng-container></a>
   </div>
 </div>
