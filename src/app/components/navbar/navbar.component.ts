@@ -11,11 +11,7 @@ export class NavbarComponent implements OnInit {
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {
-    if (event.target.innerWidth <= 864) {
-      this.mobile = true;
-    } else {
-      this.mobile = false;
-    }
+    this.mobile = event.target.innerWidth <= 864;
   }
 
   constructor() { }

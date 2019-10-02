@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, HostListener, OnInit} from '@angular/core';
 import {RouteEnum, RoutingService} from '../../service/routing.service';
 
 @Component({
@@ -7,11 +7,20 @@ import {RouteEnum, RoutingService} from '../../service/routing.service';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  mobile: boolean;
 
-  constructor(private routingService: RoutingService) { }
+  @HostListener('window:resize', ['$event'])
+  onResize(event) {
+    this.mobile = event.target.innerWidth <= 864;
+  }
+
+    constructor(private routingService: RoutingService) { }
 
   ngOnInit(): void {
     this.routingService.route = RouteEnum.HOME;
+    if (window.screen.width <= 864) {
+      this.mobile = true;
+    }
   }
 
 }

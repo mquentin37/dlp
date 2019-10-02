@@ -17,7 +17,7 @@ export class ExperiencesComponent implements OnInit {
     title: 'TLS / SSL Certificates Management - Spring API',
     description: '',
     tags: ['Security'],
-    technologies: [`<img src="../../../assets/logos/spring.svg" height="20px"/>`]
+    technologies: [`<img src="./assets/logos/spring.svg" height="20px"/>`]
   };
 
   constructor(private routingService: RoutingService) { }
