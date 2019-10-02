@@ -1,0 +1,351 @@
+<app-navbar></app-navbar>
+<div class="main">
+  <div class="experience">
+    <div class="title">
+      Professional experience
+    </div>
+    <div class="content" (click)="collapsed_Zenika = !collapsed_Zenika">
+      <div class="row">
+        <div class="cell">
+          <div class="enterprise">Zenika</div>
+          02/2019 -
+        </div>
+        <div class="cell">
+          <fa name="angle-down" *ngIf="collapsed_Zenika"></fa>
+          <fa name="angle-up" *ngIf="!collapsed_Zenika"></fa>
+        </div>
+      </div>
+      <hr />
+      <div class="missions" *ngIf="!collapsed_Zenika">
+        <div class="columns">
+          <fa name="lock"></fa>
+          <ul>
+            <li>
+              Abstract
+              <p>
+                Development of a web application allowing the management of TLS / SSL certificates
+              </p>
+            </li>
+            <li>
+              Tasks
+              <ul>
+                <li>Study and understanding of business logic (PKI architecture, certificates, domains) </li>
+                <li>Installation of the technical environment </li>
+                <li>Analysis and documentation of the existing code </li>
+                <li>Bugfixes </li>
+                <li>Implementation of unit and integration tests </li>
+                <li>REST API development </li>
+              </ul>
+            </li>
+            <li>
+              Domain
+              <p> Security - TLS / SSL </p>
+            </li>
+            <li>
+              Technologies
+              <p>
+                <img src="../../../assets/logos/spring.svg" height="20px" alt="Spring"/>
+                <img src="../../../assets/logos/java.svg" height="20px" alt="Java"/>
+              </p>
+            </li>
+            <li>
+              <label for="front_0">Front</label>
+              <input type="checkbox" id="front_0" onclick="return false;"/>
+            </li>
+            <li>
+              <label for="back_0">Back</label>
+              <input type="checkbox" id="back_0" checked onclick="return false;"/>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="content" (click)="collapsed_Apside = !collapsed_Apside">
+      <div class="row">
+        <div class="cell">
+          <div class="enterprise">Apside</div>
+          04/2017 - 02/2019
+        </div>
+        <div class="cell">
+          <fa name="angle-down" *ngIf="collapsed_Apside"></fa>
+          <fa name="angle-up" *ngIf="!collapsed_Apside"></fa>
+        </div>
+      </div>
+      <hr />
+      <div class="missions" *ngIf="!collapsed_Apside">
+        <div class="columns">
+          <fa name="shield"></fa>
+          <ul>
+            <li>
+              Abstract
+              <p>
+                Migration of the existing Ulis application from VB6 to WPF / .NET,
+                allowing the consultation and the management of claims, the setting up of recourse, of regulations, ...
+                In order to optimize the performances, while maintaining iso-functionality.
+              </p>
+            </li>
+            <li>
+              Tasks
+              <ul>
+                <li>Recovery of the project and establishment of the technical development environment</li>
+                <li>Study and implementation of the original technical environment (VB6 - Access) </li>
+                <li>Functional analysis of existing code </li>
+                <li>Implementation and optimization of two-factor authentication </li>
+                <li>Setting up performance tests (JMeter) </li>
+                <li>Implementation of unit and integration tests </li>
+                <li>Migrating the application </li>
+              </ul>
+            </li>
+            <li>
+              Domain
+              <p>
+                Insurance - Claims - Management
+              </p>
+            </li>
+            <li>
+              Technologies
+              <p>
+                <img src="../../../assets/logos/net.svg" height="20px" alt=".NET"/>
+                <img src="../../../assets/logos/csharp.svg" height="20px" alt="C#"/>
+              </p>
+            </li>
+            <li>
+              <label for="front_1">Heavy Client</label>
+              <input type="checkbox" id="front_1" checked onclick="return false;"/>
+            </li>
+            <li>
+              <label for="back_1">Back</label>
+              <input type="checkbox" id="back_1" checked onclick="return false;"/>
+            </li>
+          </ul>
+        </div>
+        <div class="columns">
+          <fa name="shield"></fa>
+          <ul>
+            <li>
+              Abstract
+              <p>
+                Deleveraging of the existing Ulis application from JSF to Angular / Java,
+                allowing the consultation and the management of claims, the setting up of recourse, of settlements, ...
+                In order to optimize the performances, all maintaining iso-functionality.
+              </p>
+            </li>
+            <li>
+              Tasks
+              <ul>
+                <li>Functional analysis of customer requests </li>
+                <li>Recovery of the project and establishment of the technical development environment </li>
+                <li>Migrating the application </li>
+              </ul>
+            </li>
+            <li>
+              Domain
+              <p>
+                Insurance - Claims - Management
+              </p>
+            </li>
+            <li>
+              Technologies
+              <p>
+                <img src="../../../assets/logos/angular.svg" height="20px" alt="Spring"/>
+                <img src="../../../assets/logos/spring.svg" height="20px" alt="Spring"/>
+                <img src="../../../assets/logos/java.svg" height="20px" alt="Java"/>
+              </p>
+            </li>
+            <li>
+              <label for="front_2">Front</label>
+              <input type="checkbox" id="front_2" checked onclick="return false;"/>
+            </li>
+            <li>
+              <label for="back_3">Back</label>
+              <input type="checkbox" id="back_3" checked onclick="return false;"/>
+            </li>
+          </ul>
+        </div>
+        <div class="columns">
+          <fa name="shield"></fa>
+          <ul>
+            <li>
+              Abstract
+              <p>
+                Development of a Java / Spring Rest API and an Angular front end as part of the "100% Pro" project corresponding to the implementation of a new product.
+              </p>
+            </li>
+            <li>
+              Tasks
+              <ul>
+                <li>Functional analyzes of customer requests</li>
+                <li>Recovery of the project and establishment of the technical development environment</li>
+                <li>Application development</li>
+                <li>Creation of custom controls for selections management and auto-completion</li>
+              </ul>
+            </li>
+            <li>
+              Domain
+              <p>
+                Insurance
+              </p>
+            </li>
+            <li>
+              Technologies
+              <p>
+                <img src="../../../assets/logos/angular.svg" height="20px" alt="Spring"/>
+                <img src="../../../assets/logos/spring.svg" height="20px" alt="Spring"/>
+                <img src="../../../assets/logos/java.svg" height="20px" alt="Java"/>
+              </p>
+            </li>
+            <li>
+              <label for="front_4">Front</label>
+              <input type="checkbox" id="front_4" checked onclick="return false;"/>
+            </li>
+            <li>
+              <label for="back_4">Back</label>
+              <input type="checkbox" id="back_4" checked onclick="return false;"/>
+            </li>
+          </ul>
+        </div>
+        <div class="columns">
+          <fa name="shield"></fa>
+          <ul>
+            <li>
+              Abstract
+              <p>
+                Development of a Java / Spring Rest API and an Angular front end as part of a stakeholder / elected management project within several calendars
+              </p>
+            </li>
+            <li>
+              Tasks
+              <ul>
+                <li>Functional analyzes of customer requests</li>
+                <li>Recovery of the project and establishment of the technical development environment</li>
+                <li>Application development</li>
+                <li>Implementation of unit tests</li>
+              </ul>
+            </li>
+            <li>
+              Domain
+              <p>
+                Insurance - Meetings
+              </p>
+            </li>
+            <li>
+              Technologies
+              <p>
+                <img src="../../../assets/logos/angular.svg" height="20px" alt="Spring"/>
+                <img src="../../../assets/logos/spring.svg" height="20px" alt="Spring"/>
+                <img src="../../../assets/logos/java.svg" height="20px" alt="Java"/>
+              </p>
+            </li>
+            <li>
+              <label for="front_5">Front</label>
+              <input type="checkbox" id="front_5" checked onclick="return false;"/>
+            </li>
+            <li>
+              <label for="back_5">Back</label>
+              <input type="checkbox" id="back_5" checked onclick="return false;"/>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="content" (click)="collapsed_Nokia = !collapsed_Nokia">
+      <div class="row">
+        <div class="cell">
+          <div class="enterprise">Nokia</div>
+          04/2015 - 04/2017
+        </div>
+        <div class="cell">
+          <fa name="angle-down" *ngIf="collapsed_Nokia"></fa>
+          <fa name="angle-up" *ngIf="!collapsed_Nokia"></fa>
+        </div>
+      </div>
+      <hr />
+      <div class="missions" *ngIf="!collapsed_Nokia">
+        <div class="columns">
+          <fa name="microchip"></fa>
+          <ul>
+            <li>
+              Abstract
+              <p>
+                Development of integration tests to get KPIs about the stream transport of the network cards
+              </p>
+            </li>
+            <li>
+              Tasks
+              <ul>
+                <li>Study and understanding of the stream transport </li>
+                <li>Implementation of unit and integration tests </li>
+              </ul>
+            </li>
+            <li>
+              Domain
+              <p>
+                KPI - Networking Chips
+              </p>
+            </li>
+            <li>
+              Technologies
+              <p>
+                <img src="../../../assets/logos/python.svg" height="20px" alt="Python"/>
+              </p>
+            </li>
+            <li>
+              <label for="front_6">Integration Tests</label>
+              <input type="checkbox" id="front_6" checked onclick="return false;"/>
+            </li>
+          </ul>
+        </div>
+        <div class="columns">
+          <fa name="microchip"></fa>
+          <ul>
+            <li>
+              Abstract
+              <p>
+                Development of pre-integration tests on the performance indices of the network cards, as well as a dashboard allowing the centralization of the results of the different tests
+              </p>
+            </li>
+            <li>
+              Tasks
+              <ul>
+                <li>Analysis of the specifications</li>
+                <li>Analysis of the relevant pre integration tests to present on the dashboard</li>
+                <li>Analysis of the design of the database storing the data collected by the tests and design</li>
+                <li>Creation of a document on specificity of the dashboard, and technical documents presenting the objectives, the implementation and the composition of the tests as well as the structure of the code</li>
+                <li>Realization of a tool allowing to centralize the results of the different tests in the database</li>
+                <li>Realization of tests</li>
+                <li>Realization of the web interface of the dashboard</li>
+              </ul>
+            </li>
+            <li>
+              Domain
+              <p>
+                KPI - Networking - Chips
+              </p>
+            </li>
+            <li>
+              Technologies
+              <p>
+                <img src="../../../assets/logos/spring.svg" height="20px" alt="Spring"/>
+                <img src="../../../assets/logos/java.svg" height="20px" alt="Java"/>
+                <img src="../../../assets/logos/python.svg" height="20px" alt="Python"/>
+              </p>
+            </li>
+            <li>
+              <label for="front_7">Front</label>
+              <input type="checkbox" id="front_7" checked onclick="return false;"/>
+            </li>
+            <li>
+              <label for="back_7">Back</label>
+              <input type="checkbox" id="back_7" checked onclick="return false;"/>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
